@@ -1,6 +1,6 @@
 <template>
     <div class="kanban-container flex flex-col items-center p-4">
-
+        <h1 class="p-4 font-bold text-xl">Productivity Board</h1>
         <input v-model="task" @keyup.enter="handleSubmit" class="mb-4 w-full max-w-md px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Enter a task...">
 
         <div class="kanban-board flex gap-4 p-4">
