@@ -39,14 +39,14 @@ const columns = ref([
     {
     title: 'Log',
     items: [],
-    bgColor: 'bg-gray-100',
-    headingColor: 'bg-gray-300',
+    bgColor: 'bg-pink-100',
+    headingColor: 'bg-pink-300',
     },
     {
     title: 'To Do',
     items: [],
-    bgColor: 'bg-blue-100',
-    headingColor: 'bg-blue-300',
+    bgColor: 'bg-purple-100',
+    headingColor: 'bg-purple-300',
     },
     {
     title: 'In Progress',
@@ -57,8 +57,8 @@ const columns = ref([
     {
     title: 'Done',
     items: [],
-    bgColor: 'bg-green-100',
-    headingColor: 'bg-green-300',
+    bgColor: 'bg-teal-100',
+    headingColor: 'bg-teal-300',
     }
 ])
 
